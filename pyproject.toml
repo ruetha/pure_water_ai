@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pure-water-ai"
+version = "0.1.0"
+description = "Unleashing the potential of Machine Learning to safeguard our planet's ecosystems: Empowering a greener future through technology"
+authors = ["Sarah Serafini <sarah.serafini112@gmail.com>", "Simone Porreca <porrecasimone@gmail.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+packages = [{include = "pure_water_ai"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
